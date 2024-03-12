@@ -1,0 +1,22 @@
+{
+  "name": "echosutils",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc && concurrently \"tsc -w\" \"cd dist && nodemon index.js\""
+  },
+  "author": "CallMeEcho",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "simpllog": "^1.1.4"
+  }
+}
